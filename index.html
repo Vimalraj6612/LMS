@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- header -->
+        <header class="header">
+            <section class="flex">
+                <a href="index.html" class="logo">L.M.S</a>
+
+                <form action="search.html" class="search-form">
+                    <input type="text" name="search_key" placeholder="Search Courses.." maxlength="100" required>
+                    <button type="submit" class="fas fa-search"></button>
+                </form>
+
+                <div class="icons">
+                    <div class="menu-btn" class="fas fa-bars"></div>
+                    <div class="search-btn" class="fas fa-search"></div>
+                    <div class="user-btn" class="fas fa-user"></div>
+                    <div class="toggle-btn" class="fas fa-sum"></div>
+                </div>
+
+                <div class="profile">
+                    <img src="./images/pic-1.jpg"  alt="no image" class="image">
+                    <h3 class="name">Vimal</h3>
+                    <p class="role">Student</p>
+                    <a href="profile.html" class="option-btn">View Profile</a>
+                    <div class="flex-btn">
+                        <a href="login.html" class="option-btn">Login</a>
+                        <a href="register.html" class="option-btn">Register</a>
+                    </div>
+                </div>
+            </section>
+        </header>  <!-- header end -->
+        
+        <!-- sidebar -->
+        <div class="side-bar">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <div class="profile">
+                <img src="./images/pic-1.jpg" alt="no image" class="image">
+                <h3 class="name">Vimal</h3>
+                <p class="role">Student</p>
+                <a href="profile.html" class="btn">View Profile</a>
+            </div>
+
+            <nav class="navbar">
+                <a href="index.html">
+                    <i class="fas fa-home"></i> <span>home</span>
+                </a>
+                
+                <a href="about.html">
+                    <i class="fas fa-question"></i> <span>about</span>
+                </a>
+
+                <a href="courses.html">
+                    <i class="fas fa-graduation-cap"></i> <span>courses</span>
+                </a>
+
+                <a href="trainers.html">
+                    <i class="fas fa-chalkboard-user"></i> <span>trainers</span>
+                </a>
+
+                <a href="contact.html">
+                    <i class="fas fa-headset"></i> <span>contactus</span>
+                </a>
+            </nav>
+        </div> <!-- end sidebar -->
+
+        <!-- home grid -->
+        <section class="home-grid">
+            <h1 class="heading">Quick Options</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <h3 class="title">Statistics</h3>
+                    <p class="nums">Total Students : <span>20</span> </p>
+                    <a href="#" class="inline-btn">View Student</a>
+
+                    <p class="nums">Total Courses : <span>25</span></p>
+
+                    <a href="#" class="inline-btn">View Courses</a>
+
+                    <p class="nums">Total Trainers: <span>10</span></p>
+
+                    <a href="#" class="inline-btn">View Trainers</a>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">Top Courses</h3>
+                    <div class="flex">
+                        <a href="#">
+                            <i class="fas fa-code"></i>
+                            <span>HTML</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>Css3</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JS</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <span>Bootstarp</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React JS</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-node-js"></i>
+                            <span>NodeJS</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-php"></i>
+                            <span>Php</span>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 class="title">Popular Courses</h3>
+                    <div class="flex">
+                        <a href="#">
+                            <i class="fa-brands fa-react"></i>
+                            <span>MERN</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>Front End</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-javat"></i>
+                            <span>Java FullStack</span>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python FullStack</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3 class="title">Become a Trainer</h3>
+                    <p class="tutor">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, sunt.
+                    </p>
+                    <a href="trainers.html" class="inline-btn">Get Started</a>
+                </div>
+            </div>
+        </section><!-- end of home grid -->
+
+        <footer class="footer">
+            <p>
+                &copy; copyright @ 2023 | All Rights Reserved...
+            </p>
+        </footer>
+    <!-- custom js -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
